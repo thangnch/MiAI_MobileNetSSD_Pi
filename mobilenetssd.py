@@ -75,7 +75,7 @@ def do_detect(frame, net, classNames):
 
 # Mo video hoac webcam
 if args.vid_file:
-    cap = cv2.VideoCapture(args.video)
+    cap = cv2.VideoCapture(args.vid_file)
 else:
     cap = cv2.VideoCapture(0)
 
